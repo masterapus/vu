@@ -1,0 +1,49 @@
+{
+  "headline": "Apus Play",
+  "menu": [
+    {
+      "icon": "live-tv",
+      "label": "TV ao Vivo",
+      "data": {
+        "type": "pages",
+        "headline": "Canais ao Vivo",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,3,2",
+          "icon": "tv",
+          "color": "msx-glass"
+        },
+        "items": [
+          {
+            "title": "Canal Exemplo 1",
+            "action": "video:https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+          },
+          {
+            "title": "Canal Exemplo 2",
+            "action": "video:https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+          }
+        ]
+      }
+    },
+    {
+      "icon": "movie",
+      "label": "Filmes",
+      "data": {
+        "type": "pages",
+        "headline": "Catálogo de Filmes",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,2,3",
+          "icon": "movie",
+          "color": "msx-glass"
+        },
+        "items": [
+          {
+            "title": "Filme Exemplo 1",
+            "action": "video:https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+          }
+        ]
+      }
+    }
+  ]
+}
